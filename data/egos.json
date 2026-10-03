@@ -108,6 +108,12 @@
     "sin": "Sloth"
   },
   {
+    "name": "Hollow",
+    "sinner": "Faust",
+    "rarity": "WAW",
+    "sin": "Pride"
+  },
+  {
     "name": "La Sangre de Sancho",
     "sinner": "Don Quixote",
     "rarity": "ZAYIN",
@@ -268,6 +274,12 @@
     "sinner": "Hong Lu",
     "rarity": "ZAYIN",
     "sin": "Gloom"
+  },
+  {
+    "name": "Repudiation",
+    "sinner": "Hong Lu",
+    "rarity": "ZAYIN",
+    "sin": "Envy"
   },
   {
     "name": "Roseate Desire",
@@ -454,6 +466,12 @@
     "sinner": "Rodion",
     "rarity": "TETH",
     "sin": "Gluttony"
+  },
+  {
+    "name": "Mirror-touch",
+    "sinner": "Rodion",
+    "rarity": "TETH",
+    "sin": "Sloth"
   },
   {
     "name": "4th Match Flame",
@@ -663,6 +681,12 @@
     "name": "Shadow-vested Bladesinger [着影揮刀]",
     "sinner": "Meursault",
     "rarity": "HE",
+    "sin": "Pride"
+  },
+  {
+    "name": "Hollow",
+    "sinner": "Meursault",
+    "rarity": "WAW",
     "sin": "Pride"
   }
 ]

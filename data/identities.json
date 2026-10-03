@@ -517,6 +517,19 @@
     "rarity": "000"
   },
   {
+    "name": "Haute Couture::Le Noir Brand Manager Don Quixote",
+    "keywords": [
+      "Charge",
+      "Tremor"
+    ],
+    "sinAffinities": [
+      "Pride",
+      "Envy",
+      "Sloth"
+    ],
+    "rarity": "000"
+  },
+  {
     "name": "Seven Association South Section 6 Ryōshū",
     "keywords": [
       "Rupture"
@@ -2091,6 +2104,19 @@
     "rarity": "000"
   },
   {
+    "name": "Haute Couture::Le Noir Footwear Hall Ryōshū",
+    "keywords": [
+      "Charge",
+      "Tremor"
+    ],
+    "sinAffinities": [
+      "Envy",
+      "Pride",
+      "Sloth"
+    ],
+    "rarity": "000"
+  },
+  {
     "name": "S Corp. Ch'unokkun Hong Lu",
     "keywords": [
       "Bleed",
@@ -2130,6 +2156,19 @@
     "rarity": "000"
   },
   {
+    "name": "Haute Couture::Boutique du Rouge Ishmael",
+    "keywords": [
+      "Bleed",
+      "Charge"
+    ],
+    "sinAffinities": [
+      "Wrath",
+      "Envy",
+      "Lust"
+    ],
+    "rarity": "000"
+  },
+  {
     "name": "The House of Spiders: The Thumb Nursefather Rodion",
     "keywords": [
       "Ammo",
@@ -2141,6 +2180,19 @@
       "Pride",
       "Sloth",
       "Wrath"
+    ],
+    "rarity": "000"
+  },
+  {
+    "name": "Haute Couture::Alteration Shop Rodion",
+    "keywords": [
+      "Charge",
+      "Tremor"
+    ],
+    "sinAffinities": [
+      "Sloth",
+      "Envy",
+      "Sloth"
     ],
     "rarity": "000"
   },
