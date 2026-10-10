@@ -7,13 +7,21 @@ export const SINNER_ORDER = [
     "Hong Lu", "Heathcliff", "Ishmael", "Rodion", "Sinclair", "Outis", "Gregor"
 ];
 
-export const zayinBanExceptions = [
-    "Bygone Days (Yi Sang)",
-    "Soda (Ryōshū)",
-    "Holiday (Heathcliff)",
-    "Hundred-Footed Death Maggot [蝍蛆殺] (Ishmael)",
-    "Cavernous Wailing (Sinclair)",
-    "Legerdemain (Gregor)"
+// EGOs hidden from the EGO ban phase (all other EGOs, including ZAYIN, are bannable).
+// Format must match parseEGOData's display name: "EGO Name (Sinner)".
+export const egoBanHidden = [
+    "Crow's Eye View (Yi Sang)",
+    "Representation Emitter (Faust)",
+    "La Sangre de Sancho (Don Quixote)",
+    "Forest for the Flames (Ryōshū)",
+    "Chains of Others (Meursault)",
+    "Land of Illusion (Hong Lu)",
+    "Bodysack (Heathcliff)",
+    "Snagharpoon (Ishmael)",
+    "What is Cast (Rodion)",
+    "Branch of Knowledge (Sinclair)",
+    "To Páthos Máthos (Outis)",
+    "Suddenly, One Day (Gregor)"
 ];
 
 // Timing constants (in milliseconds)

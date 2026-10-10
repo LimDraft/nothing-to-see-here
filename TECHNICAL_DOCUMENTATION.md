@@ -84,7 +84,7 @@ Real-time multiplayer drafting app for Limbus Company tournaments.
 ### Client JS (`client/js/`) — ES Modules
 | File | Lines | Exports |
 |------|-------|---------|
-| `config.js` | 55 | `SINNER_ORDER`, `zayinBanExceptions`, `TIMING`, `GAME_CONFIG`, `loadKoreanModeFromStorage()`, `saveKoreanModeToStorage(val)` |
+| `config.js` | 55 | `SINNER_ORDER`, `egoBanHidden`, `TIMING`, `GAME_CONFIG`, `loadKoreanModeFromStorage()`, `saveKoreanModeToStorage(val)` |
 | `state.js` | 73 | `state` (mutable singleton), `elements` (mutable DOM cache object) |
 | `utils/core.js` | 73 | `showNotification(text, isError?)`, `showSideChangeNotification(old, new)`, `createSlug(name)`, `getReserveTimeElement(role)`, `getSliderElements(sinner)`, `getTooltipElement()`, `clearDynamicElementCache()` |
 | `utils/keepAlive.js` | 39 | `init(sendMessage)`, `startKeepAlive()`, `stopKeepAlive()`, `shouldSendKeepAlive()` |

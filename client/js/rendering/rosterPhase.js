@@ -2,7 +2,7 @@
 // Roster selection phase and EGO ban phase rendering, plus role-selection modal.
 // Call init(sendMessage) before the app goes live.
 
-import { zayinBanExceptions } from '../config.js';
+import { egoBanHidden } from '../config.js';
 import { state, elements } from '../state.js';
 import { createEgoElement, getEgoDisplayName } from './egoElements.js';
 import { renderIDList, renderGroupedView, filterIDs } from './idElements.js';
@@ -75,9 +75,7 @@ export function renderEgoBanPhase() {
 
     const availableEgos = state.masterEGOList.filter(ego => {
         if (allBans.includes(ego.id)) return false;
-        const isZayin = ego.rarity === 'ZAYIN';
-        const isException = zayinBanExceptions.includes(ego.name);
-        return !isZayin || isException;
+        return !egoBanHidden.includes(ego.name);
     });
 
     const filteredEgos = availableEgos.filter(ego =>
